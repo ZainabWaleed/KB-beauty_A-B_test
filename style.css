@@ -9,6 +9,9 @@ header {
   width: 100%;
 }
 
+
+
+
 header img {
     padding: 10px;
 }
@@ -24,11 +27,12 @@ header ul {
     display: inline-block;
   }
   
-  header a .active {
+.active {
     text-decoration: underline;
+    font-weight: 500;
   }
 
-  li a:hover:not(.active) {
+  header li a:hover:not(.active) {
     font-weight: 500;
   }
  
@@ -46,6 +50,21 @@ header ul {
     padding-bottom: 15px;
   }
 
-  #landing_page img{
+
+
+  #landing_page  img{
     width: 100%;
+   
+  }
+
+  /* Centered text */
+#landing_page .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 64px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
   }
